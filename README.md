@@ -67,7 +67,7 @@ This will start 4 terminals:
 1. Rosmaster
 2. Gazebo world simulation with turtlebot3
 3. SLAM with gmapping
-4. Teleoperating command node
+4. Teleoperation node
    
 Run the teleoperation node and make a map of the world. When the map is created successfully, open a new terminal and save the map.
 ```bash
@@ -85,7 +85,7 @@ This will start 4 terminals:
 1. Rosmaster
 2. Gazebo world simulation with turtlebot3
 3. RVIZ
-4. Teleoperating command node
+4. Teleoperation node
 
 
 ### Example
