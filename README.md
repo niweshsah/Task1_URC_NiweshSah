@@ -30,6 +30,8 @@ Before you can run the node, make sure you have the following installed:
     catkin build
     source devel/setup.bash
     ```
+4. **Save/copy map.yaml at home directory**
+    
 
 ## Running the Node
 
@@ -39,7 +41,7 @@ To run the node, use the following command:
 rosrun main_launch python_start_launches.py 
 ```
 
-Replace `<package_name>` with the name of your package and `<node_name>` with the name of the node executable.
+
 
 ### Example
 
