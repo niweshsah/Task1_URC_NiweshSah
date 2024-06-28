@@ -6,7 +6,7 @@ Before you can run the node, make sure you have the following installed:
 
 ## Installation
 
-1.  **Make workspace (e.g. catkin_ws) **
+1.  **Make workspace (e.g. catkin_ws)**
 
      ```bash
     cd ~
