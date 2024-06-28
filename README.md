@@ -31,7 +31,7 @@ Before you can run the node, make sure you have the following installed:
     ```
 4. **Sourcing and setting the environment variables**:
 
-     Type "nano ~/.bashrc" in terminal and add following lines at the end
+     Type " nano ~/.bashrc " in terminal and add following lines at the end:
 
      ```bash
     source /opt/ros/noetic/setup.bash
