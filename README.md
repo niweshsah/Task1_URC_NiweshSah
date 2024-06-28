@@ -1,8 +1,9 @@
 ## Prerequisites
 
 Before you can run the node, make sure you have the following installed:
-- ROS (Robot Operating System)
-- TurtleBot3 Package
+- [ROS (Robot Operating System)](http://wiki.ros.org/ROS/Installation)
+- [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
+- [aws-robomaker-bookstore-world](https://github.com/aws-robotics/aws-robomaker-bookstore-world)
 
 ## Installation
 
@@ -18,7 +19,7 @@ Before you can run the node, make sure you have the following installed:
     Ensure you are in the workspace root directory (e.g., `catkin_ws`).
 
     ```bash
-    catkin build
+    catkin_make
     source devel/setup.bash
     ```
 
