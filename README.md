@@ -36,7 +36,7 @@ Before you can run the node, make sure you have the following installed:
 To run the node, use the following command:
 
 ```bash
-rosrun <package_name> <node_name>
+rosrun main_launch python_start_launches.py 
 ```
 
 Replace `<package_name>` with the name of your package and `<node_name>` with the name of the node executable.
