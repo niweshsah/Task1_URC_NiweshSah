@@ -4,6 +4,7 @@ Before you can run the node, make sure you have the following installed:
 - [ROS (Robot Operating System)](http://wiki.ros.org/ROS/Installation)
 - [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
 
+*NOTE: We are using ROS Noetic
 ## Installation
 
 1.  **Make workspace (e.g. catkin_ws)**
