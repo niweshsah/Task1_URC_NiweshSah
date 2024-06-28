@@ -89,6 +89,14 @@ This will start 4 terminals:
 4. Teleoperation node
 
 
+Now, we have to do initial pose estimation. Follow the given steps:
+1. Click the 2D Pose Estimate button in the RViz menu.
+2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
+3. Repeat step 1 and 2 until the LDS sensor data is overlayed on the saved map.
+4. Use keyboard teleoperation node to precisely locate the robot on the map.
+5. Move the robot back and forth a bit to collect the surrounding environment information and narrow down the estimated location of the TurtleBot3 on the map which is displayed with tiny green arrows.
+6. Terminate the keyboard teleoperation node by entering Ctrl + C to the teleop node terminal in order to prevent different cmd_vel values are published from multiple nodes during Navigation.
+
 ### Example
 
 If your package name is `global_planner` and your node name is `global_planner_node`, you would run:
