@@ -29,7 +29,7 @@ Before you can run the node, make sure you have the following installed:
     catkin init
     catkin build
     ```
-4. **Sourcing and setting the environment variables**
+4. **Sourcing and setting the environment variables**:
 
      Type "nano ~/.bashrc" in terminal and add following lines at the end
 
