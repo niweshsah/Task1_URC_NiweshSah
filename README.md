@@ -40,7 +40,11 @@ To run the node, use the following command:
 ```bash
 rosrun main_launch python_start_launches.py 
 ```
-
+This will start 4 terminals:
+1. Rosmaster
+2. Gazebo world simulation with turtlebot3
+3. RVIZ
+4. Teleoperating command node
 
 
 ### Example
