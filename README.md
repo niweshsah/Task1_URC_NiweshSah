@@ -28,9 +28,24 @@ Before you can run the node, make sure you have the following installed:
     ```bash
     catkin init
     catkin build
-    source devel/setup.bash
     ```
-4. **Move the map.yaml at home directory**
+4. **Sourcing and setting the environment variables**
+
+     Type "nano ~/.bashrc" in terminal and add following lines at the end
+
+     ```bash
+    source /opt/ros/noetic/setup.bash
+     export TURTLEBOT3_MODEL=burger
+     source ~/catkin_ws/devel/setup.bash
+    ```
+
+     Then, open terminal:
+     ```bash
+    source ~/.bashrc
+    ```
+        
+
+6.  **Move the map.yaml at home directory**
     
     ```bash
     mv ~/catkin_ws/map.yaml ~/
