@@ -74,7 +74,8 @@ Run the teleoperation node and make a map of the world. When the map is created 
 rosrun map_server map_saver -f ~/map 
 ```
 We saved at home directory (you can choose another location also) 
-## Running the Node
+
+## Performing Autonomous Navigation
 
 To run the node, use the following command:
 
