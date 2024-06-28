@@ -3,7 +3,6 @@
 Before you can run the node, make sure you have the following installed:
 - [ROS (Robot Operating System)](http://wiki.ros.org/ROS/Installation)
 - [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
-- [aws-robomaker-bookstore-world](https://github.com/aws-robotics/aws-robomaker-bookstore-world)
 
 ## Installation
 
