@@ -30,9 +30,12 @@ Before you can run the node, make sure you have the following installed:
     catkin build
     source devel/setup.bash
     ```
-4. **Save/copy map.yaml at home directory**
+4. **Move the map.yaml at home directory**
     
-
+    ```bash
+    mv ~/catkin_ws/map.yaml ~/
+    ```
+    
 ## Running the Node
 
 To run the node, use the following command:
