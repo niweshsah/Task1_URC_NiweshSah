@@ -6,19 +6,28 @@ Before you can run the node, make sure you have the following installed:
 
 ## Installation
 
-1. **Clone the Repository**
+1.  **Make workspace (e.g. catkin_ws) **
+
+     ```bash
+    cd ~
+    mkdir catkin_ws
+    cd catkin_ws/
+    
+    ```
+
+2.  **Clone the Repository**
 
     ```bash
     git clone <repository-url>
-    cd <catkin_ws>
     ```
 
-2. **Build the Package**
+3. **Build the Package**
 
     Ensure you are in the workspace root directory (e.g., `catkin_ws`).
 
     ```bash
-    catkin_make
+    catkin init
+    catkin build
     source devel/setup.bash
     ```
 
