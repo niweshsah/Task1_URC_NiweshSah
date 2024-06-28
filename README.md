@@ -54,6 +54,17 @@ Before you can run the node, make sure you have the following installed:
     ```bash
     mv ~/catkin_ws/map.yaml ~/
     ```
+
+
+## Making the map of our world
+
+To run the node, use the following command:
+
+```bash
+rosrun main_launch python_start_launches.py 
+```
+This will start 
+
     
 ## Running the Node
 
