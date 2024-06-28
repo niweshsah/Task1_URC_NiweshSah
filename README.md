@@ -49,13 +49,6 @@ Before you can run the node, make sure you have the following installed:
     ```
         
 
-6.  **Move the map.yaml at home directory**
-    
-    ```bash
-    mv ~/catkin_ws/map.yaml ~/
-    ```
-
-
 ## Making the map of our world
 
 To run the node, use the following command:
