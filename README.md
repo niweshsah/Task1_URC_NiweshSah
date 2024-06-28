@@ -69,7 +69,7 @@ This will start 4 terminals:
 3. SLAM with gmapping
 4. Teleoperating command node
    
-Run the teleoperation node and make a map of the world. When the map is created successfully, open a new terminal from Remote PC with Ctrl + Alt + T and save the map.
+Run the teleoperation node and make a map of the world. When the map is created successfully, open a new terminal and save the map.
 ```bash
 rosrun map_server map_saver -f ~/map 
 ```
