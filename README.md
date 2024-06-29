@@ -97,52 +97,7 @@ This will start 4 terminals:
 .  The root of the arrow is x, y coordinate of the destination, and the angle θ is determined by the orientation of the arrow.
 .  As soon as x, y, θ are set, TurtleBot3 will start moving to the destination immediately.
 
-### Example
 
-If your package name is `global_planner` and your node name is `global_planner_node`, you would run:
-
-```bash
-rosrun global_planner global_planner_node
-```
-
-## Usage
-
-Describe how to use the node here. Include any necessary arguments or parameters.
-
-```bash
-rosrun global_planner global_planner_node _param1:=value1 _param2:=value2
-```
-
-## Launch Files
-
-If you have launch files set up, you can use them to simplify running your node. For example:
-
-```bash
-roslaunch <package_name> <launch_file>
-```
-
-### Example
-
-```bash
-roslaunch global_planner global_planner.launch
-```
-
-## Troubleshooting
-
-If you encounter any issues, check the following:
-- Ensure all dependencies are installed.
-- Verify the node is being run in the correct environment.
-- Check ROS logs for error messages.
-
-```bash
-roslaunch global_planner global_planner.launch
-```
-
-## Contributing
-
-If you would like to contribute, please fork the repository and create a pull request with your changes.
-
-## License
 
 Include information about the licensing of your project.
 
