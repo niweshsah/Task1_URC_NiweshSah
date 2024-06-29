@@ -96,11 +96,3 @@ This will start 4 terminals:
 .  This green arrow is a marker that can specify the destination of the robot.
 .  The root of the arrow is x, y coordinate of the destination, and the angle θ is determined by the orientation of the arrow.
 .  As soon as x, y, θ are set, TurtleBot3 will start moving to the destination immediately.
-
-
-
-Include information about the licensing of your project.
-
----
-
-Feel free to modify the template according to your specific requirements.
